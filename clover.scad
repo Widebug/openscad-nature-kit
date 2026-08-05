@@ -1,5 +1,6 @@
 $fn=30;
 goldener_winkel = 137.507764; 
+module clover() {
 module kleekopf(){
 module ye(){
 scale([1,1,1.2])
@@ -434,3 +435,7 @@ klein();
   scale(.5)
 
   klee2();
+  }
+  
+
+  clover();
