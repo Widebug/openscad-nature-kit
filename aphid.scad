@@ -1,6 +1,6 @@
 $fn=30;
 
-module laus(){
+module aphid(){
 
 translate([10.7,0,0])
 scale([1.2,0.9,0.8])
@@ -397,4 +397,4 @@ cylinder(1,0.1,0.05);
 
 
 
-laus();
+aphid();
