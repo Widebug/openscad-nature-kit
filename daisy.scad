@@ -1,5 +1,5 @@
 $fn=30;
-
+module daisy(){
 //Stängel
 color("green"){
 for(i=[0:5:120]){
@@ -236,6 +236,7 @@ blatt_kurz();
 translate([0,-2.8,-3])
 color("green")
 blatt_lang();
+}
 
 
-
+daisy();
