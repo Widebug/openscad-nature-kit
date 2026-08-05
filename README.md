@@ -23,12 +23,11 @@ Since these models are not combined into a single collage, each asset is provide
 
 ## Customizing
 
-At the very bottom of each file, you will find the module name followed by parentheses and a semicolon. If you want to scale the model, apply the `scale()` command directly before the module call:
+At the very bottom of each file (except for the grass), you will find the module name followed by parentheses and a semicolon. If you want to scale the model, apply the `scale()` command directly before the module call:
 
-```openscad
 // This will double the size of the model:
 scale(2)
 bee(); 
-```
+
 
 You can look up further transformations and commands in the official [OpenSCAD Cheat Sheet](https://openscad.org).
