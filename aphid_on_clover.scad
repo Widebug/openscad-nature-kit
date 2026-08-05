@@ -1,6 +1,6 @@
 $fn=30;
 goldener_winkel = 137.507764; 
-module kleemitlaus(){
+module aphid_on_clover(){
 module kleekopf(){
 module ye(){
 scale([1,1,1.2])
@@ -854,6 +854,7 @@ laus();
   }
   
   translate([3,0,0])
-  render(){
-  kleemitlaus();
-  }
+
+
+  aphid_on_clover();
+  
