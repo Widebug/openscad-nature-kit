@@ -1,4 +1,5 @@
 $fn=30;
+module bee(){
 module segment(){
 hull(){
 cylinder(4,5,4);
@@ -835,4 +836,6 @@ mirror([1,0,0])
 translate([-31,7,2.5])
 rotate([-110,0,0])
 fluegel();
+}
 
+bee();
